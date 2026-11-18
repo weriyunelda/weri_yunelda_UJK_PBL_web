@@ -1,0 +1,50 @@
+/* RESET CSS */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BODY */
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f7fc;
+    color: #1e293b;
+    min-width: 320px;
+    min-height: 100vh;
+}
+
+/* FORM ELEMENTS */
+
+button,
+input,
+textarea,
+select {
+    font-family: inherit;
+}
+
+/* BUTTON */
+
+button {
+    cursor: pointer;
+}
+
+/* LINK */
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* ROOT */
+
+#root {
+    width: 100%;
+    min-height: 100vh;
+}
